@@ -1,0 +1,63 @@
+Q What are the four primary arithmetic operators?
+A: + => addition
+   - => subtraction
+   * => multipication
+   / => division
+
+Q Why will the following code not work:
+
+    print "The total is $$total";
+
+A In php, $$VARIABLE represents a variable variable. It
+  must be managed in a special manner when used in a
+  php print statement.
+
+Q What must be done instead?
+A The first dollar sign can be escaped with a backslash
+
+    print "The total is \$$total";
+
+Q Why must an HTML page that contains a form that’s being
+  submitted to a PHP script be loaded through a URL?
+A So that the php-language constructs of the php page are
+  parsed and executed by the php module of a web server
+
+Q What functions can be used to format numerical values? How
+  do you format numbers to a specific number of decimals?
+A The "round()" and "number_format()" functions can be used
+  to format floating point numbers to a specific number of
+  decimal points.
+
+  Both arguments support an argument which specifies the
+  number of decimal points to round to.
+
+Q What is the importance of operator precedence?
+A Operator precedence specifies the order in which arithmetic
+  expressions are evaluated.
+
+  For example, in the following expression:
+
+    8 + 4 / 2
+
+  the operator precedence rules state that the division
+  operator has higher precedence that the addition operator.
+
+Q What are the incremental and decremental operators?
+A The incremental and decremental operators are the ++ or
+  -- operators, which when specified after a php numeric
+  variable, add one or subtract one from the value held by
+  the variable:
+
+  For example:
+
+  $a++; is equivalent to "$a = $a + 1";
+  $a--; is equivalent to "$a = $a - 1";
+
+Q What are the arithmetic assignment operators?
+A The arithmetic assigment operators are short forms of longer
+  assignment statements.
+
+  For example:
+
+  $a *= 10; is equivalent to $a = $a * 10;
+  $a += 5; is equivalent to $a = $a +5;
