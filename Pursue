@@ -1,0 +1,4 @@
+Q Create another HTML form for taking numeric values. Then create the PHP
+  script that receives the form data, performs some calculations, formats
+  the values, and prints the results.
+A See math.html & math.php for an example of a simple calculator
